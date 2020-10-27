@@ -1,0 +1,37 @@
+.headboar-box{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title-left{
+    padding: 0% 0% 0% 10%;
+}
+.options-rigth{
+    padding: 0% 10% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botton{
+ color:hsl(216, 30%, 68%);
+ font-family: 'DM Serif Display', serif;
+ padding: 15px 15px;
+ text-decoration: none; 
+ transition: color 0s;
+}
+
+.botton:hover{
+color:  hsl(256, 26%, 20%);
+}
+
+.bottonView{
+    text-decoration: none;
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    background-color: hsl(256, 26%, 20%);
+   
+   }
