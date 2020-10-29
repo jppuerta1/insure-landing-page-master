@@ -71,7 +71,7 @@
 .main-baner-botton{
     font-weight: bold;
     font-family: 'karla';
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
     background-color: hsl(256, 26%, 20%);
     padding: 0.3em 1.5em;
     border: white solid 2px;
@@ -119,6 +119,24 @@
 .features-cards-description{
     color: hsl(273, 4%, 51%)
 }
+.HowWeWorks{
+    position: relative;
+    margin: 5% 5%;
+    background-color:hsl(256, 26%, 20%);
+}
+.HowWeWorks-imageright{
+    position: absolute;
+    right: 0%;
+}
+
+.HowWeWorks-tittle{
+    padding: 16% 5%; 
+}
+
+.HowWeWorks-button{
+    padding: 13% 0%;
+}
+
 }
 
 /*End Mobile first*/
