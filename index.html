@@ -4,7 +4,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet"> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Insure landing page</title>
@@ -17,67 +17,76 @@
   </style>
 </head>
 <body>
-    <div class="container">      
-      <div class="head">
-        <img class="head-logo" src="images/logo.svg" alt="">      
+    <div class="container">   <!-- contenedor -->   
+      <div class="head"><!-- inicio cabecera-->
+        <div>
+          <img class="head-logo" src="images/logo.svg" alt="">
+        </div>
+              
         <div class="head-optionslogo">
         <img src="images/icon-hamburger.svg " alt="">
         </div>
         <div class="head-optionsWords">
-        <a class="botton" href=""> HOW WE WORK </a>
-        <a class="botton" href=""> BLOG </a>
-        <a class="botton" href=""> ACCOUNT </a>
-        <a class="bottonView" href=""> VIEW PLANS</a> 
+        <a class="head-options-botton" href=""> HOW WE WORK </a>
+        <a class="head-options-botton" href=""> BLOG </a>
+        <a class="head-options-botton" href=""> ACCOUNT </a>
+        <a class="head-options-bottonView" href=""> VIEW PLANS</a> 
         </div>
-      </div>
-
-      <div class="main">
+      </div><!-- fin cabecera -->
+      <div class="main"><!-- baner imagen y título -->
         <div class="main-image1">
-          <img src="images/image-intro-mobile.jpg" alt="">
+          <img src="images/image-intro-mobile.jpg" alt=""><!-- imagen mobile first -->
         </div>
         <div class="main-image2">
-          <img src="images/image-intro-desktop.jpg" alt="">
+          <img src="images/image-intro-desktop.jpg" alt=""><!-- imagen otras resoluciones -->
         </div>
-        <div class="main-baner">
-          <div class="main-baner-title">
-            <h1>Humanzing your insurance.</h1>
+        <div class="main-banerbkg"><!-- backgroud purple -->
+            <div class="main-banerbkg-imagenleft">
+              <img src="images/bg-pattern-intro-left-mobile.svg" alt="">
+            </div>            
+
+            <div class="main-baner">         
+              <div class="main-baner-title">
+                <h1>Humanzing your insurance.</h1>
+              </div>
+              <div class="main-baner-description">
+                <p> <strong> Get your life insurance coverage easier and faster.
+                  We blend our expertise and technology to help you find 
+                  the plan that's right for you. Ensure you and your love 
+                  ones are protected.</strong>
+                </p>
+              </div>            
+              <div>
+                  <a class="main-baner-botton" href="">VIEW PLANS</a> 
+              </div> 
+              <div class="main-banerbkg-imagenright">
+              <img src="images/bg-pattern-intro-right-mobile.svg" alt="">
+            </div>
+            </div>
+           
           </div>
-          <div class="main-baner-description">
-            <p>Get your life insurance coverage easier and faster.
-              We blend our expertise and technology to help you find 
-              the plan that's right for you. Ensure you and your love 
-              ones are protected.
+      </div><!-- fin baner imagen y título -->
+      <div class="features"><!-- features inicio -->
+        <div class="features-title">
+          <h2>We're different</h2>
+        </div>
+        <div class="features-cards">
+          <div class="features-cards-logo">
+            <img src="images/icon-snappy-process.svg" alt="">
+          </div>
+          <div class="features-cards-title">
+            <h3>Snappy Process</h3>
+          </div>
+          <div class="features-cards-description">
+            <p>
+              Our applications process can be completed in minutes, not hours.
+              Don't get stuck filling in tedious forms.
             </p>
           </div>
-
-          <div class="features">
-            <div class="features-title">
-              <h2>We're different</h2>
-            </div>
-            <div class="features-cards">
-              <div class="features-cards-logo">
-                <img src="images/icon-snappy-process.svg" alt="">
-              </div>
-              <div class="features-cards-title">
-                <h3>Snappy Process</h3>
-              </div>
-              <div class="features-cards-description">
-                <p>
-                  Our applications process can be completed in minutes, not hours.
-                  Don't get stuck filling in tedious forms.
-                </p>
-              </div>
-            </div>
-
-
-
-          </div>
-
         </div>
-
-
-
       </div>
+
+    </div>      
 
     </div>  
 
