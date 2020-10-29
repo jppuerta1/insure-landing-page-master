@@ -8,31 +8,34 @@
   }
 /*Mobile first*/
 @media (max-width: 375px){
+    /* divs que no deben aparecer */
 .head-optionsWords,.main-image2{
     display: none;
 }
-
+ 
+/* Cabecera*/
 .head{
-    padding: 2% 2%;
+    /* padding: 2% 2%; */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+/* Baner superior */
 .main{
     display: flex;
-    align-items: baseline;
     flex-flow: column nowrap;
 }
 
 .main-image1{
     margin: 0%;
+    padding-bottom: 0%;
 }
 
 .main-banerbkg{
     background-color: hsl(256, 26%, 20%);
     position: relative;
-    height: 50%;
+    margin: 0%;
 }
 
 .main-banerbkg-imagenleft{
@@ -47,7 +50,6 @@
 
 .main-baner{
     padding: 15% 5%;
-    padding-bottom: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;    
@@ -78,6 +80,10 @@
     text-decoration: none;
     
 }
+.main-baner-botton:hover{
+    background-color:white;
+    color: hsl(256, 26%, 20%);
+}
 
 .main-baner-imageleft{
     z-index: 1;
@@ -85,6 +91,34 @@
     align-items: flex-start;
 }
 
+/* Diseño features */
+.features{
+    max-width: 100%;  
+    padding-top: 20%;
+}
+.features-title{
+    color: hsl(256, 26%, 20%);
+    padding-bottom: 10%;
+}
+.features-cards-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.features-cards{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.features-cards-title{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.features-cards-description{
+    color: hsl(273, 4%, 51%)
+}
 }
 
 /*End Mobile first*/
