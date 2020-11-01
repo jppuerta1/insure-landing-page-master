@@ -3,6 +3,34 @@
     padding: 0;
 }
 
+.botton{
+    font-weight: bold;
+    font-family: 'karla';
+    padding: 0.3em 1.5em;
+    align-content: center;
+    text-decoration: none;
+    
+}
+.main-baner{
+    padding: 15% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.main-baner-title{
+    color: white;
+    text-align: center;
+    font-family: 'DM Serif Display';
+}
+.main-baner-description{
+    padding: 10% 5% 15% 5%;
+    color: white;
+    text-align: center;
+    font-family: 'karla';
+    
+}
+
 .container{
     max-width: 100%;
   }
@@ -69,15 +97,9 @@
 }
 
 .main-baner-botton{
-    font-weight: bold;
-    font-family: 'karla';
-    /* font-size: 0.8em; */
     background-color: hsl(256, 26%, 20%);
-    padding: 0.3em 1.5em;
     border: white solid 2px;
-    align-content: center;
     color: white;
-    text-decoration: none;
     
 }
 .main-baner-botton:hover{
@@ -187,7 +209,7 @@ padding: 1em 1em;
     color:hsl(256, 26%, 20%);
     font-weight: bold;
     font-family: 'karla';
-    line-height: 1.5em;
+    line-height: 2em;
 }
 .footer-bloq-options:hover{
     text-decoration: underline;
@@ -196,5 +218,112 @@ padding: 1em 1em;
 
 }
 
-/*End Mobile first*/
+@media (min-width: 376px){
+.head-optionslogo ,.main-image1,.main-banerbkg-imagenleft,.main-banerbkg-imagenright,.HowWeWorks-imageright{
+    display: none;
+} 
+/* cabecera */
+.head{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5% 10%;
+}
+.head-optionsWords{
+    display: flex;;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ .head-options-botton{
+    display: flex;;
+    flex-direction: column;
+} 
+.head-options-botton-View{
+    display: flex;;
+    flex-direction: column;
+} 
+.head-options-botton{
+    background-color:white;
+    color: hsl(256, 26%, 20%);
+}
+.head-options-botton:hover{
+    background-color:hsl(256, 26%, 20%);
+    color: white
+}
+.head-options-botton-View{
+    background-color:hsl(256, 26%, 20%);
+    color: white
+}
+.head-options-botton-View:hover{
+    background-color:white;
+    color: hsl(256, 26%, 20%);
+    border: hsl(256, 26%, 20%) solid 2px;
+}
+/* Baner superior */
+.main{
+
+    background-color:hsl(256, 26%, 20%) ;
+}
+.main-banerbkg{
+
+    position: relative;
+    align-content:flex-start ;
+}
+.main-baner{
+display: flex;
+padding-right: 50%;
+}
+.main-baner-botton{
+    background-color: hsl(256, 26%, 20%);
+    color:white;
+    border: white solid 2px;
+}
+.main-baner-botton:hover{
+    background-color: white;
+    color:hsl(256, 26%, 20%) ;
+    position: relative;
+    
+}
+.main-image2{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+
+}
+/* Diseño features */
+.features{
+    padding-top: 5%;
+    max-width: 100%;
+}
+.features-cards-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.features-title{
+    color: hsl(256, 26%, 20%);
+    text-align: left;
+    padding: 10% 0% 10% 10%;
+    font-size: x-large; 
+}
+.features-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.features-cards-title{
+    text-align: unset;
+    padding: unset;
+    color: hsl(256, 26%, 20%);
+    font-size: unset;
+}
+.features-cards-description{
+    color: hsl(256, 26%, 20%);
+}
+
+
+}*/
+
 
