@@ -280,6 +280,22 @@ padding: 1em 1em;
     position: relative;
     align-content:flex-start ;
 }
+.main-image2{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+.main-banerbkg-imagenright-dkst{
+    position: absolute;
+    right: 0%;
+    z-index: 3;
+}
+.main-banerbkg-imagenleft-dkst{
+    position: absolute;
+    left: 0%;
+    top: 70%;
+    z-index: 3;
+}
 .main-baner{
 display: flex;
 padding-right: 50%;
@@ -301,12 +317,8 @@ padding-right: 50%;
     position: relative;
     
 }
-.main-image2{
-    position: absolute;
-    top: 30%;
-    left: 60%;
 
-}
+
 /* Diseño features */
 .features{
     padding-top: 5%;
@@ -350,15 +362,19 @@ padding-left: 10%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    
+    position: relative;    
+}
+.HowWeWorks-imageright-dskt{
+position: absolute;
+right: 0%;
 }
 .HowWeWorks-tittle-tittle{
     color: white;
     font-size: x-large;
-    padding: 15% 2%;
+    padding: 7% 2%;
 }
 .HowWeWorks-button-box{
-    padding: 17% 1%;
+    padding: 9% 1%;
 }
 .HowWeWorks-button{
     color: white;
@@ -370,13 +386,12 @@ padding-left: 10%;
     background-color: white;
 }
 
-
 /* Social medias */
 .Socialmedia{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2em 4em;
+    padding: 2em 10%;
 }
 .Socialmedia-medias{
     display: flex;
@@ -386,6 +401,7 @@ padding-left: 10%;
 /* footer */
 .footer{
     left: 0%;
+    padding-left: 2%;
     padding-right: 10%;
     display: flex;
     flex-direction: row;
