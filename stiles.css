@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+/*Clases globales*/
 .botton{
     font-weight: bold;
     font-family: 'karla';
     padding: 0.3em 1.5em;
-    align-content: center;
-    text-decoration: none;
-    
+/*     align-content: center; */
+    text-decoration: none;    
 }
 .main-baner{
     padding: 15% 5%;
@@ -17,19 +16,44 @@
     flex-direction: column;
     align-items: center;    
 }
-
 .main-baner-title{
-    color: white;
+
     text-align: center;
     font-family: 'DM Serif Display';
+    font-size: x-large;
 }
 .main-baner-description{
     padding: 10% 5% 15% 5%;
-    color: white;
     text-align: center;
     font-family: 'karla';
     
 }
+.Socialmedia-medias-logo{
+    padding: 0px .5em;
+    opacity: .8;
+}
+.Socialmedia-medias-logo:hover{
+/*     padding: 0px .5em; */
+    opacity: unset;
+}
+.footer-bloq-title{
+    color: hsl(273, 4%, 51%);
+    font-weight: bold;
+    font-family: 'karla';
+    padding-bottom: 1.2em;
+    padding-top: 1.2em;
+}
+.footer-bloq-options{
+    text-decoration: none;
+    color:hsl(256, 26%, 20%);
+    font-weight: bold;
+    font-family: 'karla';
+    line-height: 2em;
+}
+.footer-bloq-options:hover{
+    text-decoration: underline;
+}
+/*Fin clases globales*/
 
 .container{
     max-width: 100%;
@@ -54,35 +78,29 @@
     display: flex;
     flex-flow: column nowrap;
 }
-
 .main-image1{
     margin: 0%;
     padding-bottom: 0%;
 }
-
 .main-banerbkg{
     background-color: hsl(256, 26%, 20%);
     position: relative;
     margin: 0%;
 }
-
 .main-banerbkg-imagenleft{
     position: absolute;
 }
-
 .main-banerbkg-imagenright{
     position: absolute;
     top: 70%;
     right: 0%;
 }
-
 .main-baner{
     padding: 15% 5%;
     display: flex;
     flex-direction: column;
     align-items: center;    
 }
-
 .main-baner-title{
     color: white;
     text-align: center;
@@ -95,18 +113,16 @@
     font-family: 'karla';
     
 }
-
 .main-baner-botton{
     background-color: hsl(256, 26%, 20%);
     border: white solid 2px;
     color: white;
-    
+
 }
 .main-baner-botton:hover{
     background-color:white;
     color: hsl(256, 26%, 20%);
 }
-
 .main-baner-imageleft{
     z-index: 1;
     position: absolute
@@ -140,22 +156,42 @@
 .features-cards-description{
     color: hsl(273, 4%, 51%)
 }
+
 /* Diseño How We Work session */
 .HowWeWorks{
     position: relative;
     margin: 5% 5%;
     background-color:hsl(256, 26%, 20%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;    
+    padding-bottom: 20%;
 }
 .HowWeWorks-imageright{
     position: absolute;
     right: 0%;
 }
-.HowWeWorks-tittle{
-    padding: 16% 5%; 
+
+.HowWeWorks-tittle-tittle{
+    color: white;
+    padding-bottom: 20%;
+    padding-top: 10%;
 }
 .HowWeWorks-button{
-    padding: 13% 0%;
+    color: white;
+    border: 1px solid white;
+
 }
+.botton{
+    color: white;
+/*     padding: 0% 5%; */
+}
+.botton:hover{
+    background-color: white;
+    color:hsl(256, 26%, 20%) ;
+}
+
 /* Diseño social medias */
 .Socialmedia{
     display: flex;
@@ -175,16 +211,8 @@ padding: 1em 1em;
     justify-content: space-between;
 
 }
-.Socialmedia-medias-logo{
-    padding: 0px .5em;
-    opacity: .8;
-}
-.Socialmedia-medias-logo:hover{
-/*     padding: 0px .5em; */
-    opacity: unset;
-}
-/* Diseño Footer */
 
+/* Diseño Footer */
 .footer{
     display: flex;
     flex-direction: column;
@@ -196,25 +224,6 @@ padding: 1em 1em;
     flex-direction: column;
     align-items: center;
 }
-.footer-bloq-title{
-    color: hsl(273, 4%, 51%);
-    font-weight: bold;
-    font-family: 'karla';
-    padding-bottom: 1.2em;
-    padding-top: 1.2em;
-}
-
-.footer-bloq-options{
-    text-decoration: none;
-    color:hsl(256, 26%, 20%);
-    font-weight: bold;
-    font-family: 'karla';
-    line-height: 2em;
-}
-.footer-bloq-options:hover{
-    text-decoration: underline;
-}
-
 
 }
 
@@ -228,7 +237,7 @@ padding: 1em 1em;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 5% 10%;
+    padding: 2% 5%;
 }
 .head-optionsWords{
     display: flex;;
@@ -238,6 +247,7 @@ padding: 1em 1em;
  .head-options-botton{
     display: flex;;
     flex-direction: column;
+    color:hsl(256, 26%, 20%) ;
 } 
 .head-options-botton-View{
     display: flex;;
@@ -274,6 +284,12 @@ padding: 1em 1em;
 display: flex;
 padding-right: 50%;
 }
+.main-baner-title{
+    color: white;
+}
+.main-baner-description{
+    color: white;
+}
 .main-baner-botton{
     background-color: hsl(256, 26%, 20%);
     color:white;
@@ -287,8 +303,8 @@ padding-right: 50%;
 }
 .main-image2{
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 30%;
+    left: 60%;
 
 }
 /* Diseño features */
@@ -303,27 +319,78 @@ padding-right: 50%;
 }
 .features-title{
     color: hsl(256, 26%, 20%);
-    text-align: left;
-    padding: 10% 0% 10% 10%;
+    padding: 5% 0% 5% 10%;
     font-size: x-large; 
+    text-align: start;
 }
 .features-cards{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
+    text-align: start   ;
+    padding: 5% 5%;
+}
+.features-cards-logo{
+padding-left: 10%;
 }
 .features-cards-title{
-    text-align: unset;
-    padding: unset;
+/*     padding: unset; */
     color: hsl(256, 26%, 20%);
     font-size: unset;
+    text-align: unset;
 }
 .features-cards-description{
     color: hsl(256, 26%, 20%);
+    text-align: start;  
+}
+/* Diseño How We Work session */
+.HowWeWorks{
+    margin: 10%;
+    background-color: hsl(256, 26%, 20%); 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.HowWeWorks-tittle-tittle{
+    color: white;
+    font-size: x-large;
+    padding: 15% 2%;
+}
+.HowWeWorks-button-box{
+    padding: 17% 1%;
+}
+.HowWeWorks-button{
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+.HowWeWorks-button:hover{
+    color:hsl(256, 26%, 20%);
+    background-color: white;
 }
 
 
-}*/
+/* Social medias */
+.Socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 4em;
+}
+.Socialmedia-medias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* footer */
+.footer{
+    left: 0%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+}
 
 
